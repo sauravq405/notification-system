@@ -38,7 +38,7 @@ The system utilizes the following design patterns:
    - Name the project `notification_system`.
 
 2. **Create the Project Structure**:
-   - Create the following packages under `src`:
+   - Create the following packages under `org`:
      - `model`
      - `decorator`
      - `factory`
@@ -55,7 +55,7 @@ The system utilizes the following design patterns:
    - **strategy**: `SendStrategy.java`, `ImmediateSendStrategy.java`, `DelayedSendStrategy.java`
    - **singleton**: `NotificationManager.java`
    - **observer**: `NotificationObserver.java`, `LoggerObserver.java`, `AnalyticsObserver.java`
-   - **src**: `NotificationSystemApp.java` (Main class)
+   - **org**: `NotificationSystemApp.java` (Main class)
 
 ---
 
@@ -83,7 +83,7 @@ The system utilizes the following design patterns:
 Here's an example of how to use the notification system:
 
 ```java
-package src;
+package org;
 
 import decorator.EncryptedMessage;
 import decorator.TimestampedMessage;

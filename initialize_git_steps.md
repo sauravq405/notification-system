@@ -12,7 +12,7 @@ Follow the steps below to set up your Java project with a Git repository:
 
 ### 3. Create a Repository with the Same Name in Git
 - Go to [GitHub](https://github.com) and create a new repository.
-- Use the same name as your project (e.g., `notification_system`).
+- Use the same name as your project (e.g., `notification-system`).
 
 ### 4. Initiate Git in the Project Directory
 - Go back to your project in the terminal or command prompt.
