@@ -35,7 +35,7 @@ The system utilizes the following design patterns:
 1. **Create a New Java Project** in your IDE:
    - Open IntelliJ IDEA or Eclipse and create a new Java project.
    - Select Java 11 or higher as the project SDK.
-   - Name the project `notification-system`.
+   - Name the project `notification_system`.
 
 2. **Create the Project Structure**:
    - Create the following packages under `src`:
